@@ -28,7 +28,7 @@ public class GoedeDoelTest {
     }
     @Test
     public void goedeDoelenMetDezelfdeNaamMoetenVolgensEqualsGelijkZijn() {
-        assertEquals(new GoedeDoel("CLINICLOWNS"), doel);
+        assertEquals(new GoedeDoel("pater noster"), doel);
     }
     @Test
     public void goedeDoelenMetVerschillendeNaamMoetenVolgensEqualsVerschillendZijn()
