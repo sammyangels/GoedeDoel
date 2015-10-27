@@ -38,15 +38,18 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
-  </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="zi08" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -164,7 +167,6 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="1" Folder0="$PROJECT_DIR$/../../.." Dictionaries="1" Dictionary0="C:\Users\zi08\Dropbox\IdeaProjects\nl.dic" />
   <component name="masterDetails">
     <states>
       <state key="GlobalLibrariesConfigurable.UI">
