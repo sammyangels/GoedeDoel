@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 public class GoedeDoelTest {
 	private static final String NAAM ="CliniClowns"; 
@@ -32,5 +33,9 @@ public class GoedeDoelTest {
     public void goedeDoelenMetVerschillendeNaamMoetenVolgensEqualsVerschillendZijn()
     {
         assertNotEquals(new GoedeDoel("Unicef"), doel);
+    }
+    @Test
+    public void goedDoelVerschiltVanEenObjectMetEenAnderType() {
+        assertNotEquals(doel, new Date());
     }
 }
